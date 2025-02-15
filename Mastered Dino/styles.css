@@ -1,0 +1,152 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  user-select: none;
+}
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.world {
+  overflow: hidden;
+  position: relative;
+}
+
+.score {
+  position: absolute;
+  font-size: 6vmin;
+  right: 50%;
+  top: 1vmin;
+  font-family: "Montagu Slab";
+}
+span {
+  padding-bottom: 35%;
+  position: absolute;
+  font-size: 6vmin;
+}
+
+.start-screen {
+  position: absolute;
+  font-size: 4vmin;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Montagu Slab";
+}
+
+.hide {
+  display: none;
+}
+
+.ground {
+  display: none;
+  --left: 0;
+  position: absolute;
+  width: 300%;
+  bottom: 0;
+  left: calc(var(--left) * 1%)
+}
+
+.dino {
+  --bottom: 0;
+  position: absolute;
+  left: 1%;
+  height: 35%;
+  width: 10%;
+  bottom: calc(var(--bottom) * 1%);
+}
+
+.cactus {
+  position: absolute;
+  left: calc(var(--left) * 1%);
+  height: 30%;
+  bottom: 0;
+}
+
+#video-container {
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 80%;
+  height: 1980px;
+  z-index: 2;
+}
+
+#video-frame {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+
+#ct{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 9999;
+  font-size: 20px;
+  font-family: 'Averia Sans Libre', sans-serif;
+  color: #effb06;
+  opacity: 0.6;
+} 
+
+#Flydino{
+  width: 5%;
+  height: 10%;
+  position: fixed;
+  top: 0;
+  right: 10px;
+  z-index: 9999;
+  
+  font-family: 'Averia Sans Libre', sans-serif;
+  opacity: 0.6;
+} 
+
+button{
+  display: block;
+  position: absolute;
+  padding: 10px 20px;
+            border: none;
+            background-color: rgb(58, 234, 5);
+            color: #101010;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 2%;
+            font-size: 20px;
+}
+
+button:hover {
+  box-shadow:0 0 5px rgb(58, 234, 5),
+              0 0 25px rgb(58, 234, 5),
+              0 0 50px rgb(58, 234, 5),
+              0 0 100px rgb(58, 234, 5),
+              0 0 200px rgb(58, 234, 5);
+}
+
+#controlButton{
+  display:block;
+  position: fixed;
+  bottom:90px;
+  width: 400px; /* Adjust this value to control the distance from the bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  position: fixed;
+  right: 10px;
+  z-index: 9999;
+  font-size: 20px;
+  font-family: 'Averia Sans Libre', sans-serif;
+  color: white;
+  opacity: 0.6;
+}

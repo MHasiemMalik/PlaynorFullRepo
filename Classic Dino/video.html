@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Page</title>
+  <style>
+    #intro-video {
+      width: 100%; /* Set the width to 80% of the viewport width */
+      height: 100%; /* Set height to auto to maintain aspect ratio */
+    }
+  </style>
+</head>
+<body onclick="playVideo()">
+
+<video id="intro-video">
+    <source src="imgs/Dino Intro.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<script>
+  function playVideo() {
+    var video = document.getElementById("intro-video");
+    video.play();
+  }
+</script>
+
+</body>
+</html>

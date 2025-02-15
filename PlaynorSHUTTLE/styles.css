@@ -1,0 +1,117 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+#controlButton{
+  display:block;
+  position: fixed;
+  bottom: 20px; /* Adjust this value to control the distance from the bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 9999;
+  font-size: 20px;
+  font-family: 'Averia Sans Libre', sans-serif;
+  color: white;
+  opacity: 0.6;
+}
+
+#video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color:black;
+  text-color:white;
+  font-family:'Montagu Slab';
+  font-weight: 500;
+}
+#ct{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 9999;
+  font-size: 20px;
+  font-family: 'Averia Sans Libre', sans-serif;
+  color: white;
+  opacity: 0.6;
+} 
+.title {
+  z-index: 10;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  inset: 0;
+  margin: 0;
+  flex-direction: column;
+  color:white; 
+}
+
+.subtitle {
+  margin-top: .5rem;
+}
+
+.hide {
+  display: none;
+}
+
+#roc{   
+  height: 130px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 20; /* Ensure the image is above the background */
+}
+
+.Rocket {
+  padding-left:260px; 
+  --rocet-top: -1000;
+  --rocket-size: 60px;
+  position: absolute;
+  background-color: hsl(50, 75%, 50%);
+  width: var(--rocket-size);
+  height: var(--rocket-size);
+  left: var(--rocket-size);
+  top: calc(var(--rocet-top) * 1px);
+  border-radius: 50%;
+}
+.roc-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.pipe {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: calc(var(--pipe-width) * 1px);
+  left: calc(var(--pipe-left) * 1px);
+}
+
+.pipe > .segment {
+  position: absolute;
+  width: 100%;
+  background-color: orange;
+}
+
+.pipe > .top {
+  top: 0;
+  bottom: calc(var(--hole-top) * 1px);
+}
+
+.pipe > .bottom {
+  bottom: 0;
+  top: calc(100vh - (var(--hole-top) * 1px) + calc(var(--hole-height) * 1.1px));
+}

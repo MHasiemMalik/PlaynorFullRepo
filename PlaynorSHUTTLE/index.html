@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="Utils/Planor Logo.png">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Averia+Sans+Libre:ital,wght@0,300;0,400;1,700&family=Marhey:wght@300;600;700&family=Montagu+Slab:opsz,wght@16..144,500&family=Noto+Serif:ital,wght@0,800;0,900;1,800;1,900&family=Pridi:wght@500&display=swap" rel="stylesheet">
+  <script src="script.js" type="module"></script>
+  <title>ShuttleFlip</title>
+  <script>
+    // Select the viewport meta tag
+const viewportMetaTag = document.getElementById('viewport');
+
+// Check the screen width and set the viewport scale accordingly
+function updateViewportScale() {
+  if (window.innerWidth <= 800) {
+    viewportMetaTag.setAttribute('content', 'width=device-width, initial-scale=0.1');
+  } else {
+    viewportMetaTag.setAttribute('content', 'width=device-width, initial-scale=1');
+  }
+}
+
+// Call the function initially and whenever the window is resized
+updateViewportScale();
+window.addEventListener('resize', updateViewportScale);
+</script>
+</head>
+<body>
+  <div id="ct">
+    <p>Developed by:<br> Mohammed Hasiem Malik</p>
+  </div>
+  <video id="video-background" autoplay muted loop>
+    <source src="Utils/MovingStars.mp4" type="video/mp4">
+  </video>
+  <h1 class="title" data-title>
+    Enter Space or 'u' To Start and Control
+    <small data-subtitle class="subtitle hide"></small>
+  </h1>
+  <div data-rocket class="Rocket">
+    <img src="Utils/SpaceShuttlePic.png" id="roc" class="roc-img">
+  </div>
+  <input id="controlButton"></input> 
+</body>
+</html>

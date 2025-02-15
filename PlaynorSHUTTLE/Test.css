@@ -1,0 +1,62 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+  }
+  
+  .title {
+    z-index: 10;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    inset: 0;
+    margin: 0;
+    flex-direction: column;
+  }
+  
+  .subtitle {
+    margin-top: .5rem;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  #roc {
+    height: 200px;
+    width: 200px;
+  }
+  
+  .bird {
+    --bird-top: -1000;
+    --bird-size: 60px;
+    position: absolute;
+    width: var(--bird-size);
+    height: var(--bird-size);
+    left: var(--bird-size);
+    top: calc(var(--bird-top) * 1px);
+  }
+  
+  /* Styling for the bird image */
+  .bird {
+    display: block; /* Ensure the image is displayed as a block element */
+  }
+  
+  /* Adjust width and height as needed */
+  .bird {
+    width: 60px;
+    height: 60px;
+  }
+  
+  /* You can remove or adjust these styles based on your image needs */
+  .bird {
+    background-color: transparent; /* Remove background color */
+    border-radius: 0; /* Remove border radius */
+  }
+  
