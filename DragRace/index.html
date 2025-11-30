@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Drag Race</title>
+    <link rel="icon" href="icon.png">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+    />
+
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Great+Vibes&family=Dancing+Script&family=Satisfy&family=Allura&display=swap" rel="stylesheet">
+
+    <script>
+      window.console = window.console || function (t) {};
+    </script>
+    <script>
+      if (document.location.search.match(/type=embed/gi)) {
+        window.parent.postMessage("resize", "*");
+      }
+    </script>
+  </head>
+
+  <body translate="no">
+    <div id="game">
+      <div id="road">
+        <div id="cloud"></div>
+        <div id="hero"></div>
+      </div>
+
+      <div id="hud">
+        <span id="time" class="topUI">0</span>
+        <span id="score" class="topUI">0</span>
+        <span id="lap" class="topUI">0'00"000</span>
+      </div>
+        
+    <!-- New section for displaying Top Scores (Bottom Left) -->
+    <div id="session-scores">
+        <h2>Top Scores (Session)</h2>
+        <div id="top-scores-list">
+            <p>1. 0'00"000</p>
+            <p>2. 0'00"000</p>
+            <p>3. 0'00"000</p>
+        </div>
+    </div>
+
+
+      <div id="home">
+        <h1>~DragRace.</h1>
+        <p id="text"></p>
+        
+        <!-- New Mode Selection UI -->
+        <div id="mode-selection" style="text-align: center; margin-top: 110px; font-size: 1.0em;">
+            <p style="color: #ffffff; margin-bottom: 20px;">CHOOSE VIEW MODE</p>
+            <button id="mode-1st" class="mode-button">3RD PERSON</button>
+            <button id="mode-3rd" class="mode-button">1ST PERSON</button>
+            
+            <p style="color: #fab453; margin-top: 30px;">PRESS SPACE TO START "M" to Mute and Arrows <^> to Move</p>
+        </div>
+
+        <div id="highscore"></div>
+      </div>
+        
+        <span id="tacho">0</span>
+    </div>
+
+    <div id="controls">
+      <span><span>C</span>insert coin</span>
+      
+    </div>
+    
+    <script src="javascript/1.js"></script>
+    <!-- Link to the main external JavaScript game logic file -->
+    <script src="game.js"></script>
+    <script src="javascript/null.js"></script>
+  </body>
+</html>
