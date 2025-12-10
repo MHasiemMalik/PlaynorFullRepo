@@ -13,7 +13,7 @@ Welcome to the Games Corner, where users can immerse themselves in a collection 
     The VaveLink VideoChatRooms module focuses on direct video call features using Agora SDK and WebRTC. Users can create a room and join a video call without entering any details. This communication is seamless and works across various platforms, including PC-to-PC, mobile-to-mobile, and mobile-to-PC. Only two people can communicate with each other at max.
     
     ![SS Screenshot 1](./ss/pr3.png)
-    ![SS Screenshot 2]((./ss/shuttle%20pr.gif)
+    ![SS Screenshot 2](./ss/shuttle%20pr.gif)
     [Visite the Module here](https://mhasiemmalik.github.io/PlaynorShuttle/)
 
 3. **Pong**
