@@ -13,7 +13,7 @@ Welcome to the Games Corner, where users can immerse themselves in a collection 
     An Age of classic arcade gaming is back with Space Shuttle! Relive the excitement. Navigate your shuttle through challenging space mission, dodge obstructions in your journey. With retro graphics and addictive gameplay, Space Shuttle brings the charm of classic arcade gaming to your fingertips. Get ready to blast off into a world of fun and nostalgia!
 
     ![SS Screenshot 1](./ss/pr3.png)
-    ![SS Gif]((./ss/shuttle%20pr.gif)
+    ![SS Gif](./ss/shuttle%20pr.gif)
     [Visite the Module here](https://mhasiemmalik.github.io/PlaynorShuttle/)
 
 3. **Pong**
