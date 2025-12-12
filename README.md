@@ -56,7 +56,7 @@ Welcome to Playnor: the Games Corner, where users can immerse themselves in a co
 Visit [Playnor Website](https://mhasiemmalik.github.io/PlaynorHome/) Choose your favorite game from the collection and start playing directly in your web browser. No downloads or installations required!
 More Games coming soon...
 
-##Technologies used: HTML, CSS, JavaScript.
+##Technologies used: HTML, CSS, JavaScript
 
 ## License
 
