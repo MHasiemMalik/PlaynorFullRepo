@@ -1,5 +1,5 @@
 # Playnor
-Visite the site here : [VaveLink Website](https://mhasiemmalik.github.io/PlaynorHome/)
+Visite the site here : [Playnor Website](https://mhasiemmalik.github.io/PlaynorHome/)
 ## Description
 
 ![Playnor Screenshot ](./ss/playnor%20gif.gif)
