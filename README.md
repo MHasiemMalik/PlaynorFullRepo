@@ -4,7 +4,7 @@ Visite the site here : [Playnor Website](https://mhasiemmalik.github.io/PlaynorH
 
 ![Playnor Screenshot ](./ss/playnor%20gif.gif)
 
-Welcome to the Games Corner, where users can immerse themselves in a collection of classic online games reminiscent of the early 2000s arcade era. Featuring beloved titles such as Space Shuttle, Chess, Pacman, Chrome Dino, Pong, and more, this website offers a nostalgic trip down memory lane. With a focus on OG Games arcade classics that were immensely popular in the early 2000s, like Pacman and others, users can experience the timeless charm of these iconic titles right from their browsers.
+Welcome to Playnor: the Games Corner, where users can immerse themselves in a collection of classic online games reminiscent of the early 2000s arcade era. Featuring beloved titles such as Space Shuttle, Chess, Pacman, Chrome Dino, Pong, and more, this website offers a nostalgic trip down memory lane. With a focus on OG Games arcade classics that were immensely popular in the early 2000s, like Pacman and others, users can experience the timeless charm of these iconic titles right from their browsers.
 
 ### Games
 
@@ -27,7 +27,7 @@ Welcome to the Games Corner, where users can immerse themselves in a collection 
 
 5. **Drag Race**
 
-    Enjoy the thrill of high-speed racing with Drag Race! Experience the adrenaline rush as you compete in intense in the race track, rev your engines, and outpace your opponents. With its retro graphics and fast-paced gameplay in 2 modes First Person and Third Person controls. Enjoy immersive racing action that captures the essence of classic arcade racing games. Get ready to burn rubber and leave your competitors in the dust with Drag Race!
+    Enjoy the thrill of high-speed racing with Drag Race! Experience the adrenaline rush as you compete intensely in the race track, rev your engines, and outpace your opponents. With its retro graphics and fast-paced gameplay in 2 modes First Person and Third Person controls. Enjoy immersive racing action that captures the essence of classic arcade racing games. Get ready to burn rubber and leave your competitors in the dust with Drag Race!
 
     ![DragRace Screenshot 1](./ss/Dragp1.jpg)
     ![DragRace Screenshot 1](./ss/Dragp2.jpg)
@@ -40,7 +40,7 @@ Welcome to the Games Corner, where users can immerse themselves in a collection 
      
     ![VoiceChatRooms Screenshot 1](./ss/pr5.png)
 
-    1. **Classic Mode**: Experience the original endless runner gameplay where Dino jumps over cacti with Customizations with over 16 Skins . Test your reflexes and aim for the highest score as the speed gradually increases.
+    1. **Classic Mode**: Experience the original endless runner gameplay where Dino jumps over cacti with Customizations with over 15 Skins . Test your reflexes and aim for the highest score as the speed gradually increases.
 
     ![VoiceChatRooms Screenshot 2](./ss/DinoC.gif)
     [Visite the Module here](https://mhasiemmalik.github.io/dngclassic/) 
@@ -58,14 +58,10 @@ More Games coming soon...
 
 ##Technologies used: HTML, CSS, JavaScript
 
-## Contributing
-
-Contributions are welcome! Please follow the [contribution guidelines](CONTRIBUTING.md) when submitting pull requests.
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For any inquiries or support, feel free to contact us at [contact@example.com](mailto:contact@example.com).
+For any inquiries or support, feel free to contact us at [contact@example.com](hasiemmalikm.official@gmail.com).
