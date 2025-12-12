@@ -1,5 +1,5 @@
 # Playnor
-Visite the site here : [VaveLink Website](https://mhasiemmalik.github.io/PlaynorHome/)
+Visite the site here : [Playnor Website](https://mhasiemmalik.github.io/PlaynorHome/)
 ## Description
 
 ![Playnor Screenshot ](./ss/playnor%20gif.gif)
@@ -10,68 +10,53 @@ Welcome to the Games Corner, where users can immerse themselves in a collection 
 
 1. **Space Shuttle**
 
-    The VaveLink VideoChatRooms module focuses on direct video call features using Agora SDK and WebRTC. Users can create a room and join a video call without entering any details. This communication is seamless and works across various platforms, including PC-to-PC, mobile-to-mobile, and mobile-to-PC. Only two people can communicate with each other at max.
-    
+    An Age of classic arcade gaming is back with Space Shuttle! Relive the excitement. Navigate your shuttle through challenging space mission, dodge obstructions in your journey. With retro graphics and addictive gameplay, Space Shuttle brings the charm of classic arcade gaming to your fingertips. Get ready to blast off into a world of fun and nostalgia!
+
     ![SS Screenshot 1](./ss/pr3.png)
-    ![SS Screenshot 2](./ss/shuttle%20pr.gif)
+    ![SS Gif]((./ss/shuttle%20pr.gif)
     [Visite the Module here](https://mhasiemmalik.github.io/PlaynorShuttle/)
 
 3. **Pong**
 
-    The VaveLink MessageRooms module encourages users to enter their name and join chat rooms. Users can assume any name and create or join chat rooms. Two different servers are provided for messaging: a high-speed Socket.IO-based web server which is a traditional one deployed on koyab platform and a regular Agora SDKRTM which is recommended for low data consumptions. Users can also check the number of participants present in the room. Chat rooms support one-to-many communications, allowing more than two people to communicate simultaneously.
+    Relive the classic arcade experience with Pong! This timeless game brings back the nostalgia of simple yet addictive gameplay. Challenge the computer in fast-paced matches where you control a paddle to hit the ball back and forth. With its retro graphics, Pong captures the essence of early gaming. Whether you're a seasoned player or new to the game, Pong offers endless fun and competition. Get ready to serve, rally, and score in this classic arcade favorite!
 
-    ![MessageRooms Screenshot 1](./ss/pr4.png)
-    ![MessageRooms Screenshot 2](./ss/VaveLink%20message%20ss%20(2).png)
-    ![MessageRooms Screenshot 2](./ss/Vavelink%20Chatrooms.png)
-    [Visite the Module here](https://vavelinkchatroom2.vercel.app/)
+    ![Pong Screenshot 1](./ss/Pongp1.jpg)
+    ![Pong Gif](./ss/pong.gif)
+    
+    [Visite the Module here](https://mhasiemmalik.github.io/PlaynorPong/)
 
 5. **Drag Race**
 
-    The VaveLink GroupMeets module focuses on video conferencing, chat, and screen sharing abilities. It allows two or more people to conduct meetings or conferences without any validations or verifications. Users can directly enter their name and room ID to join the conference with mic, video, and screen toggle options. Designed by Agora SDK files like Agora RTM and RTC, the module ensures seamless communication.
-     
-    ![GroupMeets Screenshot 1](./ss/Vavelink%20groupmeets.png)
-    ![GroupMeets Screenshot 2](./ss/Vavelink%20Groupmeets%20mobile%20ss.png)
-    [Visite the Module here](https://mhasiemmalik.github.io/VaveLink-GroupMeets/)
+    Enjoy the thrill of high-speed racing with Drag Race! Experience the adrenaline rush as you compete in intense in the race track, rev your engines, and outpace your opponents. With its retro graphics and fast-paced gameplay in 2 modes First Person and Third Person controls. Enjoy immersive racing action that captures the essence of classic arcade racing games. Get ready to burn rubber and leave your competitors in the dust with Drag Race!
+
+    ![DragRace Screenshot 1](./ss/Dragp1.jpg)
+    ![DragRace Screenshot 1](./ss/Dragp2.jpg)
+    ![DragRace 2](./ss/DragRace.gif)
+    [Visite the Module here](https://mhasiemmalik.github.io/PlaynorDragRace/)
 
 6. **Chrome Dino**
 
-    The VaveLink VoiceChatRooms module enables highly efficient voice communication among one-to-many people. Users can enter their name and room number to create or join existing rooms. The module supports full audio clarity without any echo, with mic toggle options which is also build on Agora RTM and STC SDK failes which help in signaling.
+    Introducing Chrome Dino, the endless runner game that brings excitement to your offline moments! When your internet connection drops, don't fret – just open Chrome and let Dino take you on an adventure. Guide the adorable dinosaur through a desert landscape, jumping over cacti and dodging obstacles to achieve the highest score possible. With its simple yet addictive gameplay, Chrome Dino is perfect for quick gaming sessions during downtime. Embrace the challenge, beat your high score, and enjoy the fun of this iconic offline game now in 2 modes!
      
     ![VoiceChatRooms Screenshot 1](./ss/pr5.png)
+
+    1. **Classic Mode**: Experience the original endless runner gameplay where Dino jumps over cacti with Customizations with over 16 Skins . Test your reflexes and aim for the highest score as the speed gradually increases.
+
+    ![VoiceChatRooms Screenshot 2](./ss/DinoC.gif)
+    [Visite the Module here](https://mhasiemmalik.github.io/dngclassic/) 
+
+    2. **Remastered Mode**: A new twist to the classic game! In This mode, Dino comes to life with enhanced graphics and dynamic environments never seen before, adding a fresh layer of excitement to the gameplay. Navigate through vibrant landscapes and enjoy a visually stunning experience while striving for the highest score!
+
     ![VoiceChatRooms Screenshot 2](./ss/dino%20pr.gif)
-    [Visite the Module here](https://vavelinkvoicerooms.vercel.app/)       
+    [Visite the Module here](https://mhasiemmalik.github.io/dngRMSD/)       
 
-## Features
-1} **High flexibility and privacy:**
-Users can enjoy a versatile platform with four modules catering to various communication needs. Privacy is maintained throughout interactions.
-
-2} **Seamless communication without installation:**
-Access the platform effortlessly from any electronic device with a browser and internet connection. No need for cumbersome installations or downloads.
-
-3} **High-quality video, voice, and messaging:** 
-Experience top-notch audio and video quality during calls, along with crisp and clear messaging capabilities. Enjoy uninterrupted communication without compromising on quality.
-
-4} **Anonymous communication:** 
-Users can engage in communication anonymously, without the need for personal credentials such as mobile numbers or email addresses.
-
-5} **Simple room creation and access:** 
-Easily create and join rooms for different communication purposes. Enter room IDs effortlessly and start communicating instantly.
-
-6} **Versatility across devices:** 
-Access the platform from any type of electronic device, regardless of geographical location. Enjoy seamless communication across the globe, ensuring connectivity no matter where users are located.
-
-7} **One-on-one video calls, one-to-many voice messages, and group conferences:** 
-Engage in various forms of communication, including one-on-one video calls, one-to-many voice messages, and group conferences. These features are highly efficient, echo-free, and work seamlessly across all platforms.
-
-8} **Crisp and clear homepage:** 
-The homepage is designed to be crisp, clear, and easy to understand. It provides great flexibility, compatibility, and modularity, ensuring a seamless user experience across various screen sizes and device-to-device screen ratios.
-
-![VoiceChatRooms Screenshot 1](./ss/Vavelink%20homepage.png)
-![VoiceChatRooms Screenshot 2](./ss/Vavelink%20home%20mobile%20ss.png)
 
 ## Usage
 
-Visit [VaveLink Website](https://mhasiemmalik.github.io/VavelinkHomeRepo/) to start using VaveLink immediately. Choose your preferred module and enter a room name to begin communication.
+Visit [Playnor Website](https://mhasiemmalik.github.io/PlaynorHome/) Choose your favorite game from the collection and start playing directly in your web browser. No downloads or installations required!
+More Games coming soon...
+
+##Technologies used: HTML, CSS, JavaScript
 
 ## Contributing
 
